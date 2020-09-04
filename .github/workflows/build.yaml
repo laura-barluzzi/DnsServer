@@ -21,7 +21,7 @@ jobs:
 
       - uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '3.1.x'
+          dotnet-version: '3.1.302'
 
       - run: ./DnsServerApp.NETCore/build.ps1 -OutputFolder ./bin
         shell: pwsh
